@@ -4,40 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body style="background-color: #F3EEEA;">
+<body>
     <header id="tete de page">
-        <h1 style="text-align: center;">Mon portfolio</h1>
+        <h1>Mon portfolio</h1>
         <section>
-            <div id="introduction">
-                <h2 style="text-align: center;">Introduction</h2>
-                <p>
-                    Bienvenue a vous,je me presente je suis Rayane <br>                    
-                    Dans ce site vous pourrez voir en details .
-                </p>
-                <ul type="disc">
-                    <li>Une presentation generale sur moi</li>
-                    <li>mon travail</li>
-                    <li>comment me contacter</li>
-                </ul>
-            </div>
             <div>
-                <p>
-                    a fin de vous faciliter la navigation sur ce site voici des acces directte au rubrique voulu
-                </p>
-                <nav>
-                    <ul type="none">
-                        <li> <a href="#about me">a propos de moi</a> </li>
-                        <li> <a href="#mon travail">mon travail et cv</a> </li>
-                        <li> <a href="#contact">comment me contacter</a> </li>
-                    </ul>
+                <nav id="circulation">
+                    <table>
+                        <tr>
+                         <th><a href="#about me">a propos de moi</a> </th>
+                         <th><a href="#mon travail">mon travail et cv</a> </th>
+                         <th><a href="#contact">comment me contacter</a></th> 
+                        </tr>
+                    </table>
                 </nav>
+            </div>
+            <div id="introduction">
+                    <img src="./téléchargé.png">
             </div>
         </section>
     </header>
     <main>
+        <section id="home">
+            <p>bienvenue a vous ce site est une ptite introduction sur qui je suis mon travaille ect</p>
+        </section>
         <section id="about me">
-            <h1 style="text-align: center;">A propos de moi</h1>
+            <h1 >A propos de moi</h1>
             <p>
                 dans cette section vous allez apprendre a plus me connaitre. <br>
                 je me presente je m'appelle Iskounene Rayane j'ai 19 ans et je suis etudiant en automatique L2 a l'universiter de bejaia <br>
@@ -51,22 +45,23 @@
             </iframe>
         </section>
         <section id="mon travail">
-            <h1 style="text-align: center;">Mon travail</h1>
+            <h1 >Mon travail</h1>
             <p>A fin d'avoir une idee generale sur ma facon de traavailler et mon experience dans le monde du travaille je vous laisse ici certains projet qui m'a ete donner de faire ainsi que mon linkedin.</p>
             <nav>
-                <ul type="none">
-                    <li> <a href="./res/index.html"target="_blank"> site 1 </a> </li>
-                    <li> <a href="./index.html" target="_blank">site 2</a> </li>
-                    <li> <a href="https://www.linkedin.com/in/rayane-iskounen-913652185/" target="_blank">mon cv</a> </li>
-                </ul>
+                <table>
+                     <th><a href="./res/index.html"target="_blank"> site 1 </a></th>
+                     <th><a href="./index.html" target="_blank">site 2</a> </th>
+                     <th><a href="https://www.linkedin.com/in/rayane-iskounen-913652185/" target="_blank">mon cv</a></th>
+                </table>
             </nav>
         </section>
     </main>
-    <footer style="background-color: #EBE3D5;">
+    <footer>
     <section>
-        <div style="width: max-content;height: 200px;" id="contact">
-        <h1 style="text-align: center;">mes contacte </h1>
-            <table border="1">
+        <div id="madiv">
+        <div id="contact">
+        <h1>mes contacte </h1>
+            <table>
                 <tr>
                   <th>Mon insta</th>
                   <td> <a href="https://www.instagram.com/rayane_pulco/" target="_blank"> rayane_pulco </a> </td>
@@ -77,31 +72,32 @@
                 </tr>
                 <tr>
                  <th>Mon email</th>
-                 <td>iskounenrayane@gmail.com</td> 
+                 <td>iskounenrayane@gmail.com</td>
                 </tr>
               </table>
         </div>
         <div>
-            <h1 style="text-align: center;">Nous laisser un message</h1>
+            <h2>Nous laisser un message</h2>
             <form>
-                <label>votre message</label>
+                <label></label>
                 <textarea></textarea>
                 <br>
-                <label>Nom</label>
+                <label></label>
                 <input type="text" placeholder="votre nom">
                 <br>
-                <label>Prenom</label>
+                <label></label>
                 <input type="text" placeholder="votre Prenom">
                 <br>
-                <label>Numero</label>
-                <input type="number" placeholder="123456789">
+                <label></label>
+                <input type="number" placeholder="votre numero de telephone">
                 <br>
-                <label>Email</label>
+                <label></label>
                 <input type="email" placeholder="abcx@exemple.com">
                 <br>
                 <input type="submit" value="soumettre">
             </form>
         </div>
+    </div>
     </section>
     </footer>
 </body>
